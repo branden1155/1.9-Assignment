@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blogCard{
+    @apply max-w-sm bg-white border border-gray-200 rounded-lg shadow-md
+}
+.image{
+    @apply rounded-t-lg;
+}
+
+.blogcardTitle{
+    @apply mb-2 text-2xl font-bold text-black;
+}
+
+.blogcardInfo{
+    @apply p-5;
+}
+
+.blogcardDetails{
+    @apply mb-3 font-normal dark:text-gray-400;
+}
+
+.readmoreTag{
+    @apply inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg; 
+}

@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.headerContainer{
+    @apply flex justify-between text-center items-center h-24 shadow-sm;
+}
+
+.logoTitle{
+    @apply ml-20 font-sans uppercase text-4xl italic font-bold;
+}
+
+.navLinks{
+    @apply px-10 list-none font-sans uppercase font-semibold;
+}
+
+.link{
+    @apply px-10;
+}
+
+.avatar{
+    @apply w-10 h-10 rounded-full
+}
+
+.profileAvatar{
+    @apply flex flex-row
+}
+
+.signupContainer{
+    @apply flex flex-col justify-center px-8
+}
+
+.signupTitle{
+    @apply text-base
+}
+
+.loginTitle{
+    @apply text-xs italic underline
+}
