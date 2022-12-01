@@ -20,8 +20,8 @@ function Header(){
             <div className="profileAvatar">
                 <img className="avatar" src={Avatar} alt="profile"/>
                  <div className="signupContainer">
-                    <a className="signupTitle" href="#">Sign-up</a>
-                    <a className="loginTitle" href="#">Log-in</a>
+                    <Link className="signupTitle" to="/Profile">Sign-up</Link>
+                    <Link className="loginTitle" to="/Profile">Log-in</Link>
                  </div>
             </div>
         </div>

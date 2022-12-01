@@ -1,19 +1,19 @@
 import React from "react";
 import './blogStyle.css'
-import BlogImage from "../../images/mongo-mysql.png"
+import ReactImage from '../../images/react-logo.jpg'
 import { Link } from "react-router-dom";
 
 function BlogTwo(){
     return(
         <div className="blogCard">
     <a href="#">
-        <img className="image" src={BlogImage} alt="blogImage" />
+        <img className="image" src={ReactImage} alt="blogImage" />
     </a>
     <div className="blogcardInfo">
         <a href="#">
-            <h5 className="blogcardTitle">The Differences of MongoDB and MySQL</h5>
+            <h5 className="blogcardTitle">The Best qualities of ReactJS and its Uses</h5>
         </a>
-        <p className="blogcardDetails">At first, I was seriously confused on the differences between MongoDB and MySQL. Now I can gladly say, they are very different from eachother.</p>
+        <p className="blogcardDetails">When I first started learning React, I was estatic to learn how JavaScript can be so easy to understand and use. What people such as myself commonly get mixed us is, React is a Library not a framework.</p>
         <Link to="/BlogpageTwo" className="readmoreTag">Read more</Link>
     </div>
 </div>

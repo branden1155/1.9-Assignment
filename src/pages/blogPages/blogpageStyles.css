@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blogoneContainer{
+    @apply bg-[#f5f3f4] h-screen mb-32
+}
+
+.blogoneHero{
+    @apply relative flex flex-row w-5/6 h-1/3 bg-white rounded-lg mx-auto top-40
+}
+
+.blogoneImage{
+    @apply w-full rounded-lg
+}
+
+.blogoneInfo{
+    @apply flex flex-col pl-4 pt-4
+}
+
+.blogoneTitle{
+    @apply uppercase text-3xl font-semibold italic
+}
+
+.blogoneDetails{
+    @apply uppercase text-lg font-thin pt-8
+}
+
+.backLink{
+    @apply block mt-14
+}

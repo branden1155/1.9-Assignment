@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .blogCard{
-    @apply max-w-sm bg-white border border-gray-200 rounded-lg shadow-md
+    @apply max-w-sm bg-[#f5f3f4] border border-gray-200 rounded-lg shadow-md
 }
 .image{
     @apply rounded-t-lg;

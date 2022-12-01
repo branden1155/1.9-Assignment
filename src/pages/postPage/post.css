@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.postPage{
+    @apply bg-[#f5f3f4] h-screen 
+}
+
+.postContainer{
+    @apply relative h-1/2 w-1/2 m-auto bg-white top-24 flex flex-col text-center shadow-xl
+}
+
+.postInfo{
+    @apply relative uppercase mt-12 font-semibold text-gray-800 italic
+}
+
+.inputTitle{
+    @apply bg-gray-100 border border-gray-400 text-gray-900 text-sm rounded-lg block p-2.5 w-3/4 my-8 m-auto
+}
+
+.inputDescription{
+    @apply bg-gray-100 border border-gray-400 text-gray-900 text-sm rounded-lg block p-2.5 w-3/4 h-52 my-0 m-auto
+}
+
+.buttonContainer{
+    @apply flex justify-center text-center
+}
+
+.button{
+    @apply bg-gray-800 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded uppercase w-20 text-center mt-4
+}

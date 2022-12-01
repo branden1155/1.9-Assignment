@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.profileContainer{
+    @apply flex uppercase justify-center bg-[#f5f3f4] h-screen 
+}
+
+.profileHero{
+    @apply flex-col w-1/3 h-80 bg-white mt-20 shadow-xl
+}
+
+.title{
+    @apply uppercase text-lg font-bold italic text-center pt-8
+}
+
+.formContainer{
+    @apply uppercase flex flex-col w-1/2 m-auto mt-6
+}
+
+.inputUsername{
+    @apply my-2 bg-gray-100 border border-gray-400 text-gray-900 text-sm rounded-lg block p-2.5 w-3/4 my-2 m-auto
+}
+
+.inputPassword{
+    @apply my-2 bg-gray-100 border border-gray-400 text-gray-900 text-sm rounded-lg block p-2.5 w-3/4 my-2 m-auto
+}
+
+.formLabel{
+    @apply text-xs flex justify-start ml-10 text-gray-800 font-semibold
+}
+
+.loginTips{
+    @apply uppercase flex flex-row justify-center
+}
+
+.forgotPass{
+    @apply uppercase text-xs px-4
+}
+
+.signupText{
+    @apply uppercase text-xs px-4
+}
+
+.buttonProfile{
+    @apply block bg-gray-800 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded uppercase w-24 mt-4 m-auto
+}
