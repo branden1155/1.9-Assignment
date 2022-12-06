@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dashContainer{
+    @apply bg-[#f5f3f4] h-screen 
+}
+
+.dashLayout{
+    @apply flex flex-row justify-evenly pt-24
+}
+
+.hero{
+    @apply relative bg-white w-4/5 h-5/6 m-auto top-20 shadow-md rounded-lg
+}
+
+.blogdashTitle{
+    @apply uppercase text-center pt-10 text-2xl font-bold
+}

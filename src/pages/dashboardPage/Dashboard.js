@@ -7,10 +7,13 @@ import BlogThree from "../../components/blogPost/blogpostThree";
 function Dashboard () {
     return (
         <div className="dashContainer">
-            <div className="dashLayout">
-                <BlogOne />
-                <BlogTwo />
-                <BlogThree />
+            <div className="hero">
+                <h5 className="blogdashTitle">Recent Blogs</h5>
+                <div className="dashLayout">
+                    <BlogOne />
+                    <BlogTwo />
+                    <BlogThree />
+                </div>
             </div>
         </div>
     )
