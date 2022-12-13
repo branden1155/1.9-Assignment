@@ -7,6 +7,8 @@ import Header from './components/headerComponent/header'
 import BlogpageOne from './pages/blogPages/blogpageOne'
 import BlogpageTwo from './pages/blogPages/blogpageTwo'
 import BlogpageThree from './pages/blogPages/blogpageThree'
+import BlogpageFour from './pages/blogPages/blogpageFour'
+
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
         <Route path='BlogpageOne' element={<BlogpageOne />} />
         <Route path='BlogpageTwo' element={<BlogpageTwo />} />
         <Route path='BlogpageThree' element={<BlogpageThree />} />
+        <Route path='BlogpageFour' element={<BlogpageFour />} />
       </Routes>
     </div>
   );
