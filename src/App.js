@@ -8,6 +8,7 @@ import BlogpageOne from './pages/blogPages/blogpageOne'
 import BlogpageTwo from './pages/blogPages/blogpageTwo'
 import BlogpageThree from './pages/blogPages/blogpageThree'
 import BlogpageFour from './pages/blogPages/blogpageFour'
+import BlogpageFive from './pages/blogPages/blogpageFive'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path='BlogpageTwo' element={<BlogpageTwo />} />
         <Route path='BlogpageThree' element={<BlogpageThree />} />
         <Route path='BlogpageFour' element={<BlogpageFour />} />
+        <Route path='BlogpageFive' element={<BlogpageFive />} />
       </Routes>
     </div>
   );

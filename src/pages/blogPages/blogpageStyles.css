@@ -15,7 +15,7 @@
 }
 
 .blogoneInfo{
-    @apply flex flex-col pl-4 pt-4
+    @apply flex flex-col pl-4 pt-2
 }
 
 .blogoneTitle{
@@ -23,9 +23,9 @@
 }
 
 .blogoneDetails{
-    @apply uppercase text-lg font-thin pt-8
+    @apply uppercase text-lg font-thin pt-2
 }
 
 .backLink{
-    @apply block mt-8
+    @apply block mt-4
 }
